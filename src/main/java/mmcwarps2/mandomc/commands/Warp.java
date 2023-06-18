@@ -64,8 +64,8 @@ public class Warp implements CommandExecutor {
                     Location blackMarket = new Location(Bukkit.getWorld("Tatooine"),1682, 51, 181, 179.0379f, 4.9510083f);
                     player.sendMessage(ChatColor.GREEN + "" + ChatColor.BOLD + "MMCWarps" + ChatColor.DARK_GRAY + " » " + ChatColor.GRAY + "Traveling to the " + ChatColor.DARK_GRAY + "" + ChatColor.BOLD + "Black Market" + ChatColor.GRAY + "!");
                     player.teleport(blackMarket);
-                }else if(args[0].equalsIgnoreCase("jabba")){
-                    Location jabba = new Location(Bukkit.getWorld("JabbasPalace"),-122, -50, 142, 180f, 0f);
+                }else if (args[0].equalsIgnoreCase("jabba")) {
+                    final Location jabba = new Location(Bukkit.getWorld("JabbasPalace"), -151, -49, 53, 180.0f, 0.0f);
                     player.sendMessage(ChatColor.GREEN + "" + ChatColor.BOLD + "MMCWarps" + ChatColor.DARK_GRAY + " » " + ChatColor.GRAY + "Traveling to " + ChatColor.DARK_GREEN + "" + ChatColor.BOLD + "Jabba's Palace" + ChatColor.GRAY + "!");
                     player.teleport(jabba);
                 }else if(args[0].equalsIgnoreCase("mines")){
