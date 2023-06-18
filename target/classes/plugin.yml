@@ -1,0 +1,12 @@
+name: MMCWarps
+version: '1.0'
+main: mmcwarps2.mandomc.MMCWarps
+api-version: 1.19
+load: STARTUP
+authors: [ AstuteFlamez ]
+description: Warp plugin
+website: shop.mandomc.net
+commands:
+  warp:
+  spawn:
+
