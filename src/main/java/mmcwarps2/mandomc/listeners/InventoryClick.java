@@ -110,7 +110,6 @@ public class InventoryClick implements Listener {
                     player.teleport(Earth);
                     player.updateInventory();
                 case 35:
-                    player.openInventory(geonosis);
                     break;
             }
         }
